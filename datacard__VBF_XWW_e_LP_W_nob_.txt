@@ -24,4 +24,5 @@ CMS_LNuJ_nonRes_e_LP_W_PT	param	0.0	0.333
 CMS_LNuJ_nonRes_e_LP_norm	lnN	-	1.091925	-	
 CMS_LNuJ_resW_e_LP_W_PT	param	0.0	0.333
 CMS_LNuJ_resW_e_LP_W_norm	lnN	-	-	1.386599	
+CMS_LNuJ_resW_bToNob_norm	lnN	-	-	1.1	
 CMS_scale_lepton	param	0.0	0.004

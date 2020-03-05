@@ -24,4 +24,5 @@ CMS_LNuJ_nonRes_mu_LP_Z_PT	param	0.0	0.333
 CMS_LNuJ_nonRes_mu_LP_norm	lnN	-	1.086671	-	
 CMS_LNuJ_resW_mu_LP_Z_PT	param	0.0	0.333
 CMS_LNuJ_resW_mu_LP_Z_norm	lnN	-	-	1.443073	
+CMS_LNuJ_resW_bToNob_norm	lnN	-	-	1.1	
 CMS_scale_lepton	param	0.0	0.004
