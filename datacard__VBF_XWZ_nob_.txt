@@ -1,0 +1,111 @@
+Combination of datacard__VBF_XWZ_e_HP_W_nob_.txt  datacard__VBF_XWZ_e_HP_Z_nob_.txt  datacard__VBF_XWZ_e_LP_W_nob_.txt  datacard__VBF_XWZ_e_LP_Z_nob_.txt  datacard__VBF_XWZ_lep_HP_W_nob_.txt  datacard__VBF_XWZ_lep_HP_Z_nob_.txt  datacard__VBF_XWZ_lep_LP_W_nob_.txt  datacard__VBF_XWZ_lep_LP_Z_nob_.txt  datacard__VBF_XWZ_mu_HP_W_nob_.txt  datacard__VBF_XWZ_mu_HP_Z_nob_.txt  datacard__VBF_XWZ_mu_LP_W_nob_.txt  datacard__VBF_XWZ_mu_LP_Z_nob_.txt
+imax 12 number of bins
+jmax 2 number of processes minus 1
+kmax 49 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes XWZ       ch1       datacardInputs__VBF_XWZ_e_HP_W_nob_.root w:XWZ__VBF_XWZ_e_HP_W_nob_
+shapes data_obs  ch1       datacardInputs__VBF_XWZ_e_HP_W_nob_.root w:data_obs
+shapes nonRes    ch1       datacardInputs__VBF_XWZ_e_HP_W_nob_.root w:nonRes__VBF_XWZ_e_HP_W_nob_
+shapes resW      ch1       datacardInputs__VBF_XWZ_e_HP_W_nob_.root w:resW__VBF_XWZ_e_HP_W_nob_
+shapes XWZ       ch10      datacardInputs__VBF_XWZ_mu_HP_Z_nob_.root w:XWZ__VBF_XWZ_mu_HP_Z_nob_
+shapes data_obs  ch10      datacardInputs__VBF_XWZ_mu_HP_Z_nob_.root w:data_obs
+shapes nonRes    ch10      datacardInputs__VBF_XWZ_mu_HP_Z_nob_.root w:nonRes__VBF_XWZ_mu_HP_Z_nob_
+shapes resW      ch10      datacardInputs__VBF_XWZ_mu_HP_Z_nob_.root w:resW__VBF_XWZ_mu_HP_Z_nob_
+shapes XWZ       ch11      datacardInputs__VBF_XWZ_mu_LP_W_nob_.root w:XWZ__VBF_XWZ_mu_LP_W_nob_
+shapes data_obs  ch11      datacardInputs__VBF_XWZ_mu_LP_W_nob_.root w:data_obs
+shapes nonRes    ch11      datacardInputs__VBF_XWZ_mu_LP_W_nob_.root w:nonRes__VBF_XWZ_mu_LP_W_nob_
+shapes resW      ch11      datacardInputs__VBF_XWZ_mu_LP_W_nob_.root w:resW__VBF_XWZ_mu_LP_W_nob_
+shapes XWZ       ch12      datacardInputs__VBF_XWZ_mu_LP_Z_nob_.root w:XWZ__VBF_XWZ_mu_LP_Z_nob_
+shapes data_obs  ch12      datacardInputs__VBF_XWZ_mu_LP_Z_nob_.root w:data_obs
+shapes nonRes    ch12      datacardInputs__VBF_XWZ_mu_LP_Z_nob_.root w:nonRes__VBF_XWZ_mu_LP_Z_nob_
+shapes resW      ch12      datacardInputs__VBF_XWZ_mu_LP_Z_nob_.root w:resW__VBF_XWZ_mu_LP_Z_nob_
+shapes XWZ       ch2       datacardInputs__VBF_XWZ_e_HP_Z_nob_.root w:XWZ__VBF_XWZ_e_HP_Z_nob_
+shapes data_obs  ch2       datacardInputs__VBF_XWZ_e_HP_Z_nob_.root w:data_obs
+shapes nonRes    ch2       datacardInputs__VBF_XWZ_e_HP_Z_nob_.root w:nonRes__VBF_XWZ_e_HP_Z_nob_
+shapes resW      ch2       datacardInputs__VBF_XWZ_e_HP_Z_nob_.root w:resW__VBF_XWZ_e_HP_Z_nob_
+shapes XWZ       ch3       datacardInputs__VBF_XWZ_e_LP_W_nob_.root w:XWZ__VBF_XWZ_e_LP_W_nob_
+shapes data_obs  ch3       datacardInputs__VBF_XWZ_e_LP_W_nob_.root w:data_obs
+shapes nonRes    ch3       datacardInputs__VBF_XWZ_e_LP_W_nob_.root w:nonRes__VBF_XWZ_e_LP_W_nob_
+shapes resW      ch3       datacardInputs__VBF_XWZ_e_LP_W_nob_.root w:resW__VBF_XWZ_e_LP_W_nob_
+shapes XWZ       ch4       datacardInputs__VBF_XWZ_e_LP_Z_nob_.root w:XWZ__VBF_XWZ_e_LP_Z_nob_
+shapes data_obs  ch4       datacardInputs__VBF_XWZ_e_LP_Z_nob_.root w:data_obs
+shapes nonRes    ch4       datacardInputs__VBF_XWZ_e_LP_Z_nob_.root w:nonRes__VBF_XWZ_e_LP_Z_nob_
+shapes resW      ch4       datacardInputs__VBF_XWZ_e_LP_Z_nob_.root w:resW__VBF_XWZ_e_LP_Z_nob_
+shapes XWZ       ch5       datacardInputs__VBF_XWZ_lep_HP_W_nob_.root w:XWZ__VBF_XWZ_lep_HP_W_nob_
+shapes data_obs  ch5       datacardInputs__VBF_XWZ_lep_HP_W_nob_.root w:data_obs
+shapes nonRes    ch5       datacardInputs__VBF_XWZ_lep_HP_W_nob_.root w:nonRes__VBF_XWZ_lep_HP_W_nob_
+shapes resW      ch5       datacardInputs__VBF_XWZ_lep_HP_W_nob_.root w:resW__VBF_XWZ_lep_HP_W_nob_
+shapes XWZ       ch6       datacardInputs__VBF_XWZ_lep_HP_Z_nob_.root w:XWZ__VBF_XWZ_lep_HP_Z_nob_
+shapes data_obs  ch6       datacardInputs__VBF_XWZ_lep_HP_Z_nob_.root w:data_obs
+shapes nonRes    ch6       datacardInputs__VBF_XWZ_lep_HP_Z_nob_.root w:nonRes__VBF_XWZ_lep_HP_Z_nob_
+shapes resW      ch6       datacardInputs__VBF_XWZ_lep_HP_Z_nob_.root w:resW__VBF_XWZ_lep_HP_Z_nob_
+shapes XWZ       ch7       datacardInputs__VBF_XWZ_lep_LP_W_nob_.root w:XWZ__VBF_XWZ_lep_LP_W_nob_
+shapes data_obs  ch7       datacardInputs__VBF_XWZ_lep_LP_W_nob_.root w:data_obs
+shapes nonRes    ch7       datacardInputs__VBF_XWZ_lep_LP_W_nob_.root w:nonRes__VBF_XWZ_lep_LP_W_nob_
+shapes resW      ch7       datacardInputs__VBF_XWZ_lep_LP_W_nob_.root w:resW__VBF_XWZ_lep_LP_W_nob_
+shapes XWZ       ch8       datacardInputs__VBF_XWZ_lep_LP_Z_nob_.root w:XWZ__VBF_XWZ_lep_LP_Z_nob_
+shapes data_obs  ch8       datacardInputs__VBF_XWZ_lep_LP_Z_nob_.root w:data_obs
+shapes nonRes    ch8       datacardInputs__VBF_XWZ_lep_LP_Z_nob_.root w:nonRes__VBF_XWZ_lep_LP_Z_nob_
+shapes resW      ch8       datacardInputs__VBF_XWZ_lep_LP_Z_nob_.root w:resW__VBF_XWZ_lep_LP_Z_nob_
+shapes XWZ       ch9       datacardInputs__VBF_XWZ_mu_HP_W_nob_.root w:XWZ__VBF_XWZ_mu_HP_W_nob_
+shapes data_obs  ch9       datacardInputs__VBF_XWZ_mu_HP_W_nob_.root w:data_obs
+shapes nonRes    ch9       datacardInputs__VBF_XWZ_mu_HP_W_nob_.root w:nonRes__VBF_XWZ_mu_HP_W_nob_
+shapes resW      ch9       datacardInputs__VBF_XWZ_mu_HP_W_nob_.root w:resW__VBF_XWZ_mu_HP_W_nob_
+----------------------------------------------------------------------------------------------------------------------------------
+bin          ch1        ch2        ch3        ch4        ch5        ch6        ch7        ch8        ch9        ch10       ch11       ch12     
+observation  -1.0       -1.0       -1.0       -1.0       -1.0       -1.0       -1.0       -1.0       -1.0       -1.0       -1.0       -1.0     
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                            ch1        ch1        ch1        ch2        ch2        ch2        ch3        ch3        ch3        ch4        ch4        ch4        ch5        ch5        ch5        ch6        ch6        ch6        ch7        ch7        ch7        ch8        ch8        ch8        ch9        ch9        ch9        ch10       ch10       ch10       ch11       ch11       ch11       ch12       ch12       ch12     
+process                                        XWZ        resW       nonRes     XWZ        resW       nonRes     XWZ        resW       nonRes     XWZ        resW       nonRes     XWZ        resW       nonRes     XWZ        resW       nonRes     XWZ        resW       nonRes     XWZ        resW       nonRes     XWZ        resW       nonRes     XWZ        resW       nonRes     XWZ        resW       nonRes     XWZ        resW       nonRes   
+process                                        0          1          2          0          1          2          0          1          2          0          1          2          0          1          2          0          1          2          0          1          2          0          1          2          0          1          2          0          1          2          0          1          2          0          1          2        
+rate                                           1.0000     24.2063    117.7749   1.0000     15.1588    70.5730    1.0000     13.6506    148.6356   1.0000     8.6147     83.9467    1.0000     52.2840    244.8089   1.0000     31.0140    142.9791   1.0000     26.9175    333.0453   1.0000     16.3912    176.8125   1.0000     27.5793    125.3466   1.0000     18.8738    71.5975    1.0000     10.9874    181.7168   1.0000     7.7789     91.5628  
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_LNuJ_nonRes_e_HP_norm   lnN                -          -          1.1126725  -          -          1.1126725  -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_nonRes_e_LP_norm   lnN                -          -          -          -          -          -          -          -          1.091925   -          -          1.091925   -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_nonRes_lep_HP_norm   lnN              -          -          -          -          -          -          -          -          -          -          -          -          -          -          1.0796945  -          -          1.0796945  -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_nonRes_lep_LP_norm   lnN              -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          1.064662   -          -          1.064662   -          -          -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_nonRes_mu_HP_norm   lnN               -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          1.1103455  -          -          1.1103455  -          -          -          -          -          -        
+CMS_LNuJ_nonRes_mu_LP_norm   lnN               -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          1.086671   -          -          1.086671 
+CMS_LNuJ_resW_bToNob_norm   lnN                -          1.1        -          -          1.1        -          -          1.1        -          -          1.1        -          -          1.1        -          -          1.1        -          -          1.1        -          -          1.1        -          -          1.1        -          -          1.1        -          -          1.1        -          -          1.1        -        
+CMS_LNuJ_resW_e_HP_W_norm   lnN                -          1.352428   -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_resW_e_HP_Z_norm   lnN                -          -          -          -          1.37323    -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_resW_e_LP_W_norm   lnN                -          -          -          -          -          -          -          1.386599   -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_resW_e_LP_Z_norm   lnN                -          -          -          -          -          -          -          -          -          -          1.448317   -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_resW_lep_HP_W_norm   lnN              -          -          -          -          -          -          -          -          -          -          -          -          -          1.2585575  -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_resW_lep_HP_Z_norm   lnN              -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          1.3062315  -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_resW_lep_LP_W_norm   lnN              -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          1.354456   -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_resW_lep_LP_Z_norm   lnN              -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          1.4160075  -          -          -          -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_resW_mu_HP_W_norm   lnN               -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          1.2993575  -          -          -          -          -          -          -          -          -          -        
+CMS_LNuJ_resW_mu_HP_Z_norm   lnN               -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          1.349083   -          -          -          -          -          -          -        
+CMS_LNuJ_resW_mu_LP_W_norm   lnN               -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          1.44613    -          -          -          -        
+CMS_LNuJ_resW_mu_LP_Z_norm   lnN               -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          -          1.443073   -        
+CMS_lumi                lnN                    1.026      -          -          1.026      -          -          1.026      -          -          1.026      -          -          1.026      -          -          1.026      -          -          1.026      -          -          1.026      -          -          1.026      -          -          1.026      -          -          1.026      -          -          1.026      -          -        
+CMS_LNuJ_nonRes_mu_HP_W_PT  param  0.0 0.333
+CMS_LNuJ_resW_e_HP_W_PT  param  0.0 0.333
+CMS_res_MET   param  0.0 0.01
+CMS_LNuJ_nonRes_mu_LP_Z_PT  param  0.0 0.333
+CMS_LNuJ_nonRes_mu_LP_W_PT  param  0.0 0.333
+CMS_LNuJ_resW_mu_LP_Z_PT  param  0.0 0.333
+CMS_scale_MET  param  0.0 0.02
+CMS_LNuJ_nonRes_lep_HP_W_PT  param  0.0 0.333
+CMS_LNuJ_resW_lep_LP_Z_PT  param  0.0 0.333
+CMS_LNuJ_resW_mu_HP_W_PT  param  0.0 0.333
+CMS_res_j     param  0.0 0.05
+CMS_LNuJ_resW_e_LP_Z_PT  param  0.0 0.333
+CMS_LNuJ_resW_e_HP_Z_PT  param  0.0 0.333
+CMS_LNuJ_resW_lep_LP_W_PT  param  0.0 0.333
+CMS_LNuJ_nonRes_lep_HP_Z_PT  param  0.0 0.333
+CMS_LNuJ_nonRes_e_LP_Z_PT  param  0.0 0.333
+CMS_scale_j   param  0.0 0.02
+CMS_LNuJ_resW_lep_HP_Z_PT  param  0.0 0.333
+CMS_LNuJ_nonRes_e_HP_Z_PT  param  0.0 0.333
+CMS_LNuJ_nonRes_mu_HP_Z_PT  param  0.0 0.333
+CMS_LNuJ_resW_mu_HP_Z_PT  param  0.0 0.333
+CMS_LNuJ_resW_lep_HP_W_PT  param  0.0 0.333
+CMS_LNuJ_nonRes_lep_LP_Z_PT  param  0.0 0.333
+CMS_LNuJ_nonRes_lep_LP_W_PT  param  0.0 0.333
+CMS_LNuJ_resW_mu_LP_W_PT  param  0.0 0.333
+CMS_LNuJ_nonRes_e_HP_W_PT  param  0.0 0.333
+CMS_scale_lepton  param  0.0 0.004
+CMS_LNuJ_resW_e_LP_W_PT  param  0.0 0.333
+CMS_LNuJ_nonRes_e_LP_W_PT  param  0.0 0.333

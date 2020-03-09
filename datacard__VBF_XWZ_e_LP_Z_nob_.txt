@@ -1,0 +1,28 @@
+imax 1
+jmax 2
+kmax *
+-------------------------
+shapes XWZ _VBF_XWZ_e_LP_Z_nob_ datacardInputs__VBF_XWZ_e_LP_Z_nob_.root w:XWZ__VBF_XWZ_e_LP_Z_nob_
+shapes nonRes _VBF_XWZ_e_LP_Z_nob_ datacardInputs__VBF_XWZ_e_LP_Z_nob_.root w:nonRes__VBF_XWZ_e_LP_Z_nob_
+shapes resW _VBF_XWZ_e_LP_Z_nob_ datacardInputs__VBF_XWZ_e_LP_Z_nob_.root w:resW__VBF_XWZ_e_LP_Z_nob_
+shapes data_obs _VBF_XWZ_e_LP_Z_nob_ datacardInputs__VBF_XWZ_e_LP_Z_nob_.root w:data_obs
+-------------------------
+bin _VBF_XWZ_e_LP_Z_nob_
+observation  -1
+-------------------------
+bin	_VBF_XWZ_e_LP_Z_nob_	_VBF_XWZ_e_LP_Z_nob_	_VBF_XWZ_e_LP_Z_nob_	
+process	XWZ	nonRes	resW	
+process	0	1	2	
+rate	1.0	83.9466646533	8.61474702149	
+CMS_lumi	lnN	1.026	-	-	
+CMS_lumi	lnN	-	-	-	
+CMS_scale_j	param	0.0	0.02
+CMS_res_j	param	0.0	0.05
+CMS_scale_MET	param	0.0	0.02
+CMS_res_MET	param	0.0	0.01
+CMS_LNuJ_nonRes_e_LP_Z_PT	param	0.0	0.333
+CMS_LNuJ_nonRes_e_LP_norm	lnN	-	1.091925	-	
+CMS_LNuJ_resW_e_LP_Z_PT	param	0.0	0.333
+CMS_LNuJ_resW_e_LP_Z_norm	lnN	-	-	1.448317	
+CMS_LNuJ_resW_bToNob_norm	lnN	-	-	1.1	
+CMS_scale_lepton	param	0.0	0.004
