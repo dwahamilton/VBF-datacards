@@ -1,0 +1,31 @@
+imax 1
+jmax 2
+kmax *
+-------------------------
+shapes XWZ _VBF_XWW_resWCombined_e_LP_W_nob_ datacardInputs__VBF_XWW_resWCombined_e_LP_W_nob_.root w:XWZ__VBF_XWW_resWCombined_e_LP_W_nob_
+shapes nonRes _VBF_XWW_resWCombined_e_LP_W_nob_ datacardInputs__VBF_XWW_resWCombined_e_LP_W_nob_.root w:nonRes__VBF_XWW_resWCombined_e_LP_W_nob_
+shapes resW _VBF_XWW_resWCombined_e_LP_W_nob_ datacardInputs__VBF_XWW_resWCombined_e_LP_W_nob_.root w:resW__VBF_XWW_resWCombined_e_LP_W_nob_
+shapes data_obs _VBF_XWW_resWCombined_e_LP_W_nob_ datacardInputs__VBF_XWW_resWCombined_e_LP_W_nob_.root w:data_obs
+-------------------------
+bin _VBF_XWW_resWCombined_e_LP_W_nob_
+observation  -1
+-------------------------
+bin	_VBF_XWW_resWCombined_e_LP_W_nob_	_VBF_XWW_resWCombined_e_LP_W_nob_	_VBF_XWW_resWCombined_e_LP_W_nob_	
+process	XWZ	nonRes	resW	
+process	0	1	2	
+rate	1.0	148.63556421	9.30331493507	
+CMS_lumi	lnN	1.018	-	-	
+CMS_lumi	lnN	-	1.99	1.99	
+CMS_scale_j	param	0.0	0.02
+CMS_res_j	param	0.0	0.05
+CMS_scale_MET	param	0.0	0.02
+CMS_res_MET	param	0.0	0.01
+CMS_LNuJ_nonRes_e_LP_W_PT	param	0.0	0.333
+CMS_LNuJ_nonRes_e_LP_norm	lnN	-	1.091925	-	
+CMS_LNuJ_resW_lep_allP_W_PT	param	0.0	0.333
+CMS_LNuJ_resW_lep_allP_W_norm	lnN	-	-	1.479488	
+CMS_LNuJ_resW_bToNob_norm	lnN	-	-	1.1	
+CMS_LNuJ_resW_bToNob_norm	lnN	-	-	-	
+CMS_VV_LNuJ_Vtag_eff	lnN	0.67	-	-	
+CMS_pdf	lnN	1.01	-	-	
+CMS_btag_fake	lnN	1.02	-	-	
